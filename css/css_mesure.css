@@ -1,0 +1,15 @@
+/* {px= use when u want fix size of text icons borders */
+p{   
+   font-size: 16px;
+   border: 2px solid rgb(233, 209, 209);
+}
+
+div{
+    font-size:20px;
+    
+    width:50%
+    
+}
+h1{
+    font-size:2em; /* 2*2px=40px      i.e. 2em=40px*/
+}
