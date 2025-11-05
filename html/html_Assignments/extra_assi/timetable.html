@@ -4,13 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .addimg{
+            background-image: url("b1.jpeg");
+            height:60px;
+            background-size: contain;
+        }
+        #heading{
+            font-weight: bold;
+            font-size: large;
+        }
+        .lunchimg{
+            background-image: url("lunch.jpeg");
+            background-size: contain;
+            height:60px;
+            background-repeat: repeat;
+        }
+    </style>
 </head>
-<body style="background-image: url(C:\Users\varal\Desktop\FrontEnd\html\html_Assignments\extra_assi\border.jpg);">
+
+<body>
     <br><br><br><br><br>
     <center>
     <table border="1" height="400" width="500" style="text-align: center; font-family: pap">
         <tr>
-            <td colspan="6" valign="top"><img src="C:\Users\varal\Desktop\FrontEnd\html\html_Assignments\extra_assi\b1.jpeg" width="500" height="50">Time Table</td>
+            <td colspan="6" class="addimg" id="heading">Time Table</td>
         </tr>
 
         <tr>
@@ -36,7 +54,7 @@
             <td style="color: red;">Arts</td>
         </tr>
         <tr >
-            <th colspan="5">Lunch</th>
+            <th colspan="5" class="lunchimg">Lunch</th>
         </tr>
 
         <tr>

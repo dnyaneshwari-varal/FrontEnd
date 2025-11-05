@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <h1>JavaScript!!</h1>
+    </header>
+
+    <main>
+        
+        <script language="javascript"> document.write("<h3>calculator using arithmatic operator</h3>")
+            var a=10;
+            var b=5;
+            var sum=a+b;
+            document.write("Addition: "+sum+ "<br>");
+
+            var sub=a-b;
+            document.write("Subtraction: "+sub+ "<br>");
+
+            var mul=a*b;
+            document.write("Multiplication: "+mul+ "<br>");
+
+            var div=a/b;
+            document.write("division: "+div+ "<br>");
+
+            var mod=a%b;
+            document.write("Modulus: "+mod+ "<br>");
+
+            document.write("post_increment " + (a++) +"<br>" );
+            document.write("value after post increment: "+ a +"<br>")
+            document.write("pre_increment: "+ ++a +"<br>");
+
+            document.write("post_decrement " + (b--) +"<br>" );
+            document.write("value after post decrement: "+ b +"<br>")
+            document.write("pre_decrement: "+ --b +"<br><br><br>");
+
+
+            // find DA , HRA  pf ,net salary
+            document.write("<h3> find DA , HRA  pf ,net salary</h3>")
+
+            var salary=20000;
+            var DA=0.05*salary;
+            var HRA=0.03*salary;
+            var pf=0.07*salary;
+
+            var gross=salary+HRA+DA;
+            var net_salary=gross-pf
+            document.write("salary is: "+salary +"<br>")
+            document.write("DA is: "+DA +"<br>")
+            document.write("HRA is: "+HRA +"<br>")
+            document.write("PF is: "+pf +"<br>")
+            document.write("gross salary is: "+gross +"<br>")
+            document.write("net salary is: "+ net_salary+"<br><br>")
+
+            // // ternary operator
+            // syntax: (exp1)?(exp2):(exp3)
+            document.write("<p>Ternary Operator : check num is even or odd</p>")
+            document.write((15%2)==0?"Even":"odd" +"<br>");
+
+            //unary operator
+            document.write("<p>unary operator: display data type of operand or value</p>");
+            var x=123;
+            //alert(typeof x);
+            document.write("dataType of x is: "+typeof x +"<br>");
+
+            var y="Dnyana";
+            document.write("dataType of y is: "+typeof y +"<br><br>");
+
+
+            //void
+            document.write('<p>use void means when we write void then it return nothing thats why we give alert when we click on link then it show alert</p>');
+            document.write('<a href="javascript:void(alert(\'warning!!\'))">Click here</a>');
+
+            document.write('<p>Control structures/statements: </p>')
+            document.write('<p>if statement</p>')
+            var num1=1;
+            if(num1==1){
+                document.write(true +"<br>");
+            }
+
+            document.write('<p>if else statement</p>')
+            var age=15;
+            if(age>18){
+                document.write('<p>eligible for vote</p>');
+            }else{
+                document.write('<p>not eligible for vote</p>');
+            }
+
+            document.write('<p>switch case</p>');
+            var day="wed";
+            
+            switch(day)
+            {
+                case "sun":
+                    document.write("Today is monday");
+                case "mon":
+                    document.write("Monday");
+                case "wed":
+                    document.write("Wednesday");
+                    break;
+                default:
+                    document.write("Invalid day!!" +"<br><br>");
+
+            }
+            
+            
+        </script>
+        <button onclick="click()">click </button>
+        <script>
+            function click(){
+                alert("Welcome to my page")
+                var res=confirm("do you want to confirm information!")
+
+                if(res){
+                    var name=prompt("Enter your name: ");
+                    if(name){
+                        alert("your good name is: "+name);
+                        confirm("Thank You!!")
+                    }
+                    else{
+                        alert("insert your name please!")
+                    }
+                }else{
+                        alter("Exit")
+                    }
+                
+            }
+
+        </script>
+    </main>
+
+
+
+
+</body>
+</html>
