@@ -109,9 +109,9 @@
             
             
         </script>
-        <button onclick="click()">click </button>
+        <button onclick="showmsg()">click </button>
         <script>
-            function click(){
+            function showmsg(){
                 alert("Welcome to my page")
                 var res=confirm("do you want to confirm information!")
 
@@ -125,11 +125,31 @@
                         alert("insert your name please!")
                     }
                 }else{
-                        alter("Exit")
+                        alert("Exit")
                     }
                 
             }
 
+        </script>
+
+        <button onclick="showBox()">click on me</button>
+        <script>
+            function showBox(){
+                alert("welcome to new page!!");
+                var b2=confirm("you want to add your info?")
+                if(b2){
+                    var Fname=prompt("your name");
+                    var Lname=prompt("Last name");
+                    if(Fname,Lname){
+                        alert("thanks for information!!");
+                    }
+                    else{
+                        alert("add information!");
+                    }
+                }else{
+                    alert("Exit")
+                }
+            }
         </script>
     </main>
 

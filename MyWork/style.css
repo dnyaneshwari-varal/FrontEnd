@@ -1,0 +1,27 @@
+/* h3 {
+
+    color:green;
+}
+button{
+    color:red;
+    background-color: black;
+}
+
+body{
+    background-color:#FFE0B5;
+} */
+
+*{
+    color: red;
+}
+h1{
+    color: black
+}
+
+#heading1{
+    color: green;
+}
+
+button{
+    background-color: green;
+}
