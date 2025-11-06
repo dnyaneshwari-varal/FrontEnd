@@ -15,7 +15,8 @@ body{
     color: red;
 }
 h1{
-    color: black
+    color: black;
+    text-align:center;
 }
 
 #heading1{
@@ -24,4 +25,19 @@ h1{
 
 button{
     background-color: green;
+}
+
+/* p{
+    text-align: center;
+    text-decoration: blue dotted underline;
+    font-family: 'Segoe UI';
+} */
+
+#one{
+    font-size: 10px;
+    line-height: normal;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
 }
