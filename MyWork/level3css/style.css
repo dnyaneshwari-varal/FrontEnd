@@ -1,0 +1,25 @@
+/* #box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#box2{
+    height: 50px;
+    width: 30%;
+    background-color: pink;
+    font-size: 2em;
+} */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid blue;
+    display: inline-block;
+}
+
+#box1{
+    position: relative ;
+}
