@@ -35,3 +35,32 @@ a{
 button{
     background-color: #f08804;
 }
+
+#outer{
+    padding-top: 3%;
+    height: 350px;
+    width: 150px;
+    background-color: white;
+}
+
+#b1{
+    margin-bottom: 5%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+#b2{
+    margin-bottom: 10%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+}
+#b3{
+    margin-bottom: 10%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:orange;
+}

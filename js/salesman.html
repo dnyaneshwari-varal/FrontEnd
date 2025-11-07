@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="getData()">start</button>
+   
+    
+    <script>
+        function getData(){
+            var a= alert("WELCOME!!")
+            var name=prompt("Please enter your name: ");
+            document.write("Name: "+name+"<br>")
+
+            if(name){
+                
+                var sales=prompt("Enter Total sale:") 
+                document.write("Total Sales: "+sales +"<br>")
+                res="";
+                if(sales >=50000 && sales <100000) {
+                    res="Satisfied";
+                    document.write("remark: "+res );
+                }else if(sales >0 && sales <50000){
+                    res="need to work hard";
+                    document.write("remark: "+res );
+                }else if(sales >100000){
+                    res="Exellent!!";
+                    document.write("remark: "+res );
+                }else if(sales<=0){
+                    res="add valid sales";
+                    document.write("Remark: "+res);
+
+                }else{
+                    res="add sale please";
+
+                }
+            }else{
+                alert("Add your name please!")
+            }
+
+            document.write("<h2>Sales Report</h2>");
+            document.write("<table border='1' cellspacing='0' cellpadding='8'>");
+            document.write("<tr><td>Name</td><td>" +name +"</td></tr>");
+            document.write("<tr><td>Total Sales<td>" +sales +"</td></tr>");
+            document.write("<tr><td>Remark</td><td>" +res +"</td></tr>");
+            document.write("</table>")
+
+
+        }
+
+    </script>
+</body>
+</html
