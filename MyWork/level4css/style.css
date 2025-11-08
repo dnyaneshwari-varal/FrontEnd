@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#Container{
+    width:800px;
+    height: 200px;
+    display: flex;
+}
+
+#box1{
+    background-color: aqua;
+    
+
+}
+
+#box2{
+    background-color: rgb(25, 59, 59);
+    
+}
+#box3{
+    background-color: purple;
+    
+}
+#box4{
+    background-color: rgb(125, 125, 201);
+    
+}
+#box5{
+    background-color: pink;
+    
+}

@@ -1,0 +1,31 @@
+body{
+    background-image: url("fox.jpg");
+    
+   
+    background-size: cover;
+    
+}
+#b1{
+    border: 2px solid green;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: aquamarine;
+    background-image: url("fox.jpg"); 
+    background-size: cover;
+}
+
+#b2{
+    border: 2px solid green;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: aquamarine;
+}
+#b3{
+    border: 2px solid green;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: aquamarine;
+}
