@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formcsss.css">
+</head>
+<body>
+    <header><h3>Registration form</h3></header>
+    <form>
+        <div>
+        <label>Name</label>
+        <input type="text" id="Fname" placeholder="Enter your name: "><br><br>
+
+        <label>LAST NAME:</label>
+        <input type="text" id="Lname" placeholder="Enter your last name: "><br><br>
+
+        <label>Mob no.:</label>
+        <input type="number" id="mob" placeholder="Enter mob no.: "><br><br>
+
+        <label>courses:</label><br>
+        <input type="radio" name="course" value="SQL" fee="10000" >SQL (RS.10000)<br>
+        <input type="radio"  name="course" value="JAVA" fee="12000" >JAVA (RS.12000)<br>
+        <input type="radio" name="course" value="REACT" fee="8000" >REACT (RS.8000)<br>
+        <input type="radio"  name="course" value="NO_SQL" fee="10000" >NO SQL (RS.10000)<br><br>
+
+        <label>Gender</label><br>
+        <input type="radio" name="gender" id="F">Female
+        <input type="radio" name="gender" id="M">Male <br><br>
+        
+        <label>Current Location</label>
+        <select id="location" name="location">
+            <option value="Pune">Pune</option>
+            <option value="Aahilyanagar">Aahilyanagar</option>
+
+        </select><br><br>
+        <label>Discount</label>
+        <input type="radio" name="discount">10%
+        <input type="radio" name="discount">20% <br><br>
+        <button onclick="showDetails()">Submit</button>
+        </div>
+    </form>
+    
+
+    <!-- <div class="output-container">
+        <div id="output"></div>
+    </div> -->
+    <script src="form.js"></script>
+
+</body>
+</html>

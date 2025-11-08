@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Auto Background Change</title>
+</head>
+<body>
+
+<h2>Background color changes every 5 seconds</h2>
+
+<script>
+let colors = ["lightblue", "lightgreen", "lavender", "pink", "peachpuff"];
+let index = 0;
+
+function changeColor() {
+    document.body.style.backgroundColor = colors[index];
+    index = (index + 1) % colors.length;
+}
+
+setInterval(changeColor, 5000);
+</script>
+
+</body>
+</html>

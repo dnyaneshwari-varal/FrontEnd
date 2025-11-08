@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            padding-top: 20px;
+            border: 2px solid red;
+            height: 120px;
+            width: 250px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   
+        <div>
+            <label>username</label>
+            <input type="text" value="name" placeholder="enter username"><br><br>
+            <label>Password</label>
+            <input type="password" value="pin" id="pin" placeholder="Enter password"><br><br>
+            <button onclick="checkpin()">submit</button><br><br>
+        </div>
+
+    
+</body>
+    <script>
+        let correctpin="1234";
+        let count=0;
+        function checkpin(){
+            let enteredPin=document.getElementById("pin").value;
+
+            if(count>=3){
+                alert("Your card has been blocked!!")
+            }
+
+            if(enteredPin === correctpin){
+                alert("Pin is correct.Welcome!");
+            }else{
+                count++;
+                if(count===3){
+                    alert("Your card has been blocked!!");
+                }else{
+                    alert("Worng pin. Attempts left: "+(3-count));
+                }
+            }
+            document.getElementById("pin").value="";
+        }
+            
+
+    </script>
+</html>

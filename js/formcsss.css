@@ -1,0 +1,16 @@
+h3{
+    padding-top: 30px;
+    text-align: center;
+}
+
+div{
+    background-color:lavender;
+    border: 2px solid blue;
+    text-align: center;
+    padding: 20px 0 10px 0;
+    height: 400px;
+    width: 300px;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    
+}
