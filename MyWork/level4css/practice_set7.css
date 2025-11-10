@@ -1,0 +1,26 @@
+div{
+    height: 50px;
+    width: 50px;
+
+}
+
+/* green for width less than 300px
+@media(max-width:300px){
+    div{
+        background-color: green;
+    }
+} */
+
+
+/*  green if width is between  300px - 400px
+@media(min-width:300px) and (max-width:400px) {
+    div{
+        background-color: pink;
+    }
+} */
+/* blue if width is above 600px*/
+@media(min-width:600px){
+    div{
+        background-color: blue;
+    }
+}
