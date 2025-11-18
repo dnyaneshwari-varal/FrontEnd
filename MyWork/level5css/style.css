@@ -12,11 +12,40 @@ div{
     transition-delay: 1s;
     transition :all 2s ease-in 1s;
     transform: rotate(45deg); */
+
+    /* Animation */
+    /* animation-name: colorAni;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count:infinite ;
+    animation-direction: reversev ; */
+    animation: colorAni 2s linear 3s infinite normal;
    
 }
 @keyframes colorAni{
-    from{background-color: aqua;}
-    to{background-color: pink;}
+    /* from{background-color: aqua;}
+    to{background-color: pink;} */
+    /* from{
+        left:0px;
+        background-color: aqua;
+        }
+    to{
+        left:300px;
+        background-color: pink;
+    } */
+
+    0%{
+        left:0px;
+        background-color: aqua;
+        }
+    50%{
+        background-color:green;
+    }
+    100%{
+        left:300px;
+        background-color: blue;
+    }
 }
 div:hover{
     /* background-color: beige;
